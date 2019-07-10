@@ -22,6 +22,6 @@ class AED extends Money
 {
     public function __construct($amount)
     {
-        parent::__construct($amount, new Currency('AED'))
+        parent::__construct($amount, new Currency('AED'));
     }
 }

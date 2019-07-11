@@ -104,7 +104,7 @@
     <target name="phpcs"
             description="Find coding standard violations using PHP_CodeSniffer and print result in text format">
         <exec executable="${phpcs}" taskname="phpcs">
-            <arg value="--standard=PSR2"/>
+            <arg value="--standard=PSR4"/>
             <arg value="--extensions=php"/>
             <arg value="--ignore=autoload.php"/>
             <arg path="${basedir}/src"/>
